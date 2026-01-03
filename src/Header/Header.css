@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 20px 100px;
+    background-color: rgba(0, 7, 28, 0.4);
+    backdrop-filter: blur(10px);
+    backdrop-filter: gray;
+}
+.header_ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 100px;
+}
+.header_li a{
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+    font-size: 20px;
+    transition-property: color;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    font-family: "Quantico", sans-serif;
+}
+.header_li a:hover{
+    color: #914900;
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
+.header_li .active{
+    color: #ff9e3d;
+}

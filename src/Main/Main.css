@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.main_heroSection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url("/public/hero_back.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px 50px;
+}
+.main_title{
+    font-size: 40px;
+    background-image: linear-gradient(177deg,rgb(255, 113, 52) 40%, rgba(252, 176, 69, 1) 60%);
+    color: transparent;
+    background-clip: text;
+    font-family: "Orbitron", sans-serif;
+}
+.main_subtitle{
+    font-size: 25px;
+    background-image: linear-gradient(177deg,rgb(255, 113, 52) 40%, rgba(252, 176, 69, 1) 60%);
+    color: transparent;
+    background-clip: text;
+    font-family: "Quantico", sans-serif;
+}
+.main_button{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: rgb(255, 113, 52) 1px solid;
+    color: aliceblue;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    font-family: "Orbitron", sans-serif;
+    transition: transform 0.3s ease, background-color 0.3s ease-in, color 0.3s ease-in;
+}
+.main_button:hover{
+    background-color: whitesmoke;
+    color: rgb(255, 113, 52);
+    transform: scale(1.1);
+    transition: transform 0.3s ease, background-color 0.3s ease-in, color 0.3s ease-in;
+}

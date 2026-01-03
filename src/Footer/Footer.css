@@ -1,0 +1,24 @@
+footer{
+    width: 100vw;
+    background-color: #16171a;
+    text-align: center;
+    overflow: hidden;
+}
+.footer_container{
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer_text{
+    cursor: pointer;
+    color: #FFEDFA;
+    font-weight: 200;
+    font-size: 20px;
+    transition: ease-in-out 800ms color;
+}
+.footer_text:active{
+    color: #e094eb;
+    transition: ease-in-out 500ms color;
+}
