@@ -47,3 +47,11 @@
     transform: scale(1.1);
     transition: transform 0.3s ease, background-color 0.3s ease-in, color 0.3s ease-in;
 }
+.main_cartSliderSection{
+    padding: 60px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
