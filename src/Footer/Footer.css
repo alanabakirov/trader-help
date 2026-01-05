@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 footer{
     width: 100vw;
     background-color: #16171a;
@@ -12,6 +13,7 @@ footer{
     justify-content: center;
 }
 .footer_text{
+    font-family: "Quantico", sans-serif;
     cursor: pointer;
     color: #FFEDFA;
     font-weight: 200;
@@ -19,6 +21,6 @@ footer{
     transition: ease-in-out 800ms color;
 }
 .footer_text:active{
-    color: #e094eb;
+    color: orange;
     transition: ease-in-out 500ms color;
 }
