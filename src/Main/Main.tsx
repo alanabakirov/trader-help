@@ -46,6 +46,29 @@ const slides = [
                 <h1 className="main_title">Our services</h1>
                 <CardSlider slides={slides}/>
             </div>
+            <div className="main_motivationSection">
+                <div className="main_motivationSection_container">
+                    <p className="main_title">Invest</p>
+                    <p className="main_title">right</p>
+                    <p className="main_title">now</p>
+                </div>
+            </div>
+            <div className="main_featuresOfApp">
+                <div className="main_featuresContainer">
+                    <div className="main_featureBox">
+                        <h3 className="main_featureHeading">Global Data</h3>
+                        <p className="main_featureDescription">We pull data from 70+ exchanges. Get the full picture of the global market instantly.</p>
+                    </div>
+                    <div className="main_featureBox">
+                        <h3 className="main_featureHeading">AI Logic</h3>
+                        <p className="main_featureDescription">Validate your gut feeling with AI. Smart analysis for smarter trades.</p>
+                    </div>
+                    <div className="main_featureBox">
+                        <h3 className="main_featureHeading">Stay Organized</h3>
+                        <p className="main_featureDescription">A built-in tracker ensures you never miss a trade or ignore your own strategy rules.</p>
+                    </div>
+                </div>
+            </div>
         </main>
     )
 }

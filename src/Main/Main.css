@@ -55,3 +55,81 @@
     align-items: center;
     text-align: center;
 }
+.main_motivationSection{
+    display: flex;
+    flex-direction: column;
+}
+.main_motivationSection_container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: url("/public/mainMotivationPicture.JPG") top / cover no-repeat;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    flex-wrap: nowrap;
+}
+.main_motivationSection_text{
+    font-size: 60px;
+    margin-top: 20px;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+.main_featuresOfApp {
+    width: 100%;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+}
+.main_featuresContainer {
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.main_featureBox {
+    cursor: pointer;
+    flex: 1;
+    min-width: 280px;
+    padding-top: 25px;
+    border-top: 2px solid #00d4ff; 
+    transition: transform 0.3s ease;
+}
+.main_featureBox:hover {
+    transform: translateY(-5px);
+}
+.main_featureHeading {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.main_featureDescription {
+    color: #94a3b8;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 320px;
+}
+@media (max-width: 900px) {
+    .main_featuresContainer {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .main_featureBox {
+        width: 100%;
+        max-width: none;
+        border-top: none;
+        border-left: 3px solid #00d4ff;
+        padding-top: 0;
+        padding-left: 20px;
+    }
+}
