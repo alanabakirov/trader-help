@@ -120,7 +120,7 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .card-slider_window {
     width: 90%;
     height: 400px;
@@ -140,4 +140,35 @@
     height: 40px;
     font-size: 16px;
   }
+}
+
+@media (max-width: 500px) {
+  .card-slider_content {
+    padding: 40px;
+  }
+  
+  .card-slider_title {
+    font-size: 25px;
+  }
+  
+  .card-slider_text {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .card-slider_action {
+  padding: 14px 20px;
+  font-size: 14px;
+  }
+}
+@media (max-width: 400px) {
+  .card-slider_title {
+    font-size: 20px;
+  }
+  
+  .card-slider_text {
+    font-size: 12px;
+    padding: 0 8px;
+  }
+
 }
