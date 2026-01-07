@@ -1,7 +1,9 @@
 import "./Main.css";
 import CardSlider from "../CardSlider/CartSlider";
+import { useNavigate } from "react-router";
 
 export default function Main(){
+    let navigate = useNavigate();
 
 const slides = [
   {
@@ -40,7 +42,7 @@ const slides = [
             <div className="main_heroSection">
                 <h1 className="main_title">Master the Market only with us</h1>
                 <p className="main_subtitle">Task-driven trading, and Gemini-powered stock analysis—all in one place.</p>
-                <button className="main_button">Explore stocks</button>
+                <button className="main_button" onClick={()=>navigate("/stocks")}>Explore stocks</button>
             </div>
             <div className="main_cartSliderSection">
                 <h1 className="main_title">Our services</h1>
