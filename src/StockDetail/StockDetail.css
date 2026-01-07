@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.stockDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  padding: 15px;
+}
+.stockDetail_intro{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.stockDetail_mainTitle{
+    font-size: 40px;
+    text-align: center;
+    background-image: linear-gradient(177deg,rgb(255, 113, 52) 40%, rgba(252, 176, 69, 1) 60%);
+    color: transparent;
+    background-clip: text;
+    font-family: "Orbitron", sans-serif;
+}
+.stockDetail_introDescription{
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: "Quantico", sans-serif;
+}
+.stockDetail_card {
+  max-width: 420px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  background: whitesmoke;
+}
+
+.stockDetail_title{
+    font-size: 25px;
+    background-image: linear-gradient(177deg,rgb(255, 113, 52) 40%, rgba(252, 176, 69, 1) 60%);
+    color: transparent;
+    background-clip: text;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.stockDetail_dateText{
+    font-size: 15px;
+    background-image: linear-gradient(177deg,rgb(255, 113, 52) 40%, rgba(252, 176, 69, 1) 60%);
+    color: transparent;
+    background-clip: text;
+    font-family: "Quantico", sans-serif;
+}
+
+.stockDetail_priceInfoElement {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0;
+}
+.stockDetail_text{
+    font-size: 14px;
+    color: black;
+}
+.stockDetail_priceInfo {
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+.stockDetail_gemini {
+  margin-top: 32px;
+  padding: 20px;
+  border-radius: 12px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 420px;
+  width: 100%;
+}
+
+.stockDetail_geminiSelect {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  background: aliceblue;
+  font-size: 14px;
+  color: #111827;
+  cursor: pointer;
+}
+
+.stockDetail_geminiButton {
+  cursor: pointer;
+  margin-top: 8px;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #00d4ff;
+  color: whitesmoke;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+  font-family: "Quantico", sans-serif;
+}
+
+.stockDetail_geminiButton:hover {
+  background: #4338ca;
+}
+.stockDetail_geminiButton:disabled {
+  background: #9ca3af;
+}
+
+.stockDetail_answer {
+  margin-top: 16px;
+  padding: 14px;
+  border-radius: 8px;
+  background: whitesmoke;
+  font-size: 14px;
+  color: black;
+  font-family: "Quantico", sans-serif;
+}
+.loadingBlockClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 1100px){
+    .stockDetail_mainTitle{
+        font-size: 30px;
+    }
+    .stockDetail_introDescription{
+        font-size: 20px;
+    }
+}
+
+
+
+
