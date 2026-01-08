@@ -7,7 +7,7 @@ import { Spin } from 'antd';
 export default function StockDetail(){
 
     const APIKEY = "65c8594968d3c37b42fee0fa0ee44fe6";
-    const GEMINI_API_KEY = "AIzaSyAwTYMmWSh0S0L6SeKgLkhOsR_LrL3IGpc";
+    const GEMINI_API_KEY = "AIzaSyC4m_RaLrpGEkBBWsqc2RrZpTNemrvbGNQ";
     let { nameOfStock } = useParams();
     const [stock, setStock] = useState<any>(null);
     const [isLoading, setIsLoading] = useState(true);
@@ -86,7 +86,7 @@ export default function StockDetail(){
   }
 
   if (!stock) {
-    return <main className="stockDetail">No data available</main>;
+    return <main className="stockDetail loadingBlockClass">No data available. Some error occured🥲. maybe, try to reload page, but idk, it could be problem with api</main>;
   }
 
   return (

@@ -15,7 +15,7 @@ export default function About(){
             id: 2,
             title: "Gemini for AI analysis",
             description: "It processes complex market sentiment to provide a second opinion on your trades.",
-            link: "/tasks",
+            link: "https://aistudio.google.com/welcome?utm_source=google&utm_medium=cpc&utm_campaign=FY25-global-DR-gsem-BKWS-1710442&utm_content=text-ad-none-any-DEV_c-CRE_736763358935-ADGP_Hybrid+%7C+BKWS+-+EXA+%7C+Txt-Gemini+(Growth)-Gemini+API+Docs-KWID_2088805677811-aud-2303776546298:kwd-2088805677811&utm_term=KW_gemini%20api%20documentation-ST_gemini+api+documentation&utm_source=google&utm_medium=cpc&utm_campaign=Cloud-SS-DR-AIS-FY26-global-gsem-1713578&utm_content=text-ad&utm_term=KW_gemini%20api%20documentation&gad_source=1&gad_campaignid=22307834138&gbraid=0AAAAACn9t67hBJClpNfp93PVX6372nvJ3&gclid=Cj0KCQiAyP3KBhD9ARIsAAJLnnYZ6UU8KSOTkCj4A5BeOWVcdhPLPKEW_vT_NLzehGywIVIP7iOEI3caAlTiEALw_wcB",
             image: "/aboutPageSlider2.JPG"
         },
         {
