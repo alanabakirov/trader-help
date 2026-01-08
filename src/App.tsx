@@ -29,8 +29,7 @@ export default function App() {
 
 
   const [listOfStocks, setListOfStocks] = useState<Stock[]>([]);;
-  const [isInitialized, setIsInitialized] = useState(false);
-  const APIKEY = "65c8594968d3c37b42fee0fa0ee44fe6";
+  const APIKEY = "488f2e89630202fed0c15f83625cbbd9";
 
   async function fetchStockData(){
     try{
@@ -42,7 +41,6 @@ export default function App() {
         }
       });
       setListOfStocks(response.data.data);
-      setIsInitialized(true);
     }catch{
       console.log("some error occured");
     }
