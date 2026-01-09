@@ -7,7 +7,7 @@ import { Spin } from 'antd';
 export default function StockDetail(){
 
     const APIKEY = "488f2e89630202fed0c15f83625cbbd9";
-    const GEMINI_API_KEY = "AIzaSyC4m_RaLrpGEkBBWsqc2RrZpTNemrvbGNQ";
+    const GEMINI_API_KEY = "";
     let { nameOfStock } = useParams();
     const [stock, setStock] = useState<any>(null);
     const [isLoading, setIsLoading] = useState(true);

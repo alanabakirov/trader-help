@@ -7,10 +7,6 @@ type MarketExplorerProps = {
 };
 
 export default function MarketExplorer({ stocks }: MarketExplorerProps){
-
-    for(let i = 0; i<stocks.length; i++){
-        console.log(stocks[i]);
-    }
     return (
         <main>
             <div className="marketExplorer_introContainer">

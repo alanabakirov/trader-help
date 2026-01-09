@@ -95,7 +95,7 @@ export default function TaskTracker() {
 
         <div className="taskTracker_intro">
           <h1 className="taskTracker_mainTitle">Task tracker</h1>
-          <p className="taskTracker_introDescription">Here you can document your goals and tasks.</p>
+          <p className="taskTracker_introDescription">The Task Tracker allows users to create, view, and manage tasks with minimal effort. Each task has name, description and status that represents its current progress: Todo, In Progress, or Done. Users can select the status when creating a task, and can also update it directly from the task list with a single click. If you click on task - it changes status of task and visuallity (such as border-color) updates accordingly to give immediate feedback (orangered - todo, yellow - in progress, green - done). All task data, including status, is stored locally in the browser using localStorage, so tasks persist across page reloads.</p>
         </div>
 
         <div className="taskTracker_formContainer">
